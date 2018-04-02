@@ -21,37 +21,39 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import {MatListModule} from '@angular/material/list';
 import {LayoutModule} from '@angular/cdk/layout';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatSelectModule} from '@angular/material/select';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-  ],
-  imports: [
-    MatIconModule,
-    BrowserModule,
-    BrowserAnimationsModule,
-    MatCheckboxModule,
-    MatDatepickerModule,
-    MatNativeDateModule,
-    MatAutocompleteModule,
-    ReactiveFormsModule,
-    MatInputModule,
-    FormsModule,
-    MatFormFieldModule,
-    MatMenuModule,
-    MatButtonModule,
-    MatSliderModule,
-    MatToolbarModule,
-    MatCardModule,
-    MatGridListModule,
-    MatExpansionModule,
-    MatListModule,
-    MatSidenavModule,
-    LayoutModule,
+    declarations: [
+        AppComponent,
+    ],
+    imports: [
+        MatIconModule,
+        BrowserModule,
+        BrowserAnimationsModule,
+        MatCheckboxModule,
+        MatDatepickerModule,
+        MatNativeDateModule,
+        MatAutocompleteModule,
+        ReactiveFormsModule,
+        MatInputModule,
+        FormsModule,
+        MatFormFieldModule,
+        MatMenuModule,
+        MatButtonModule,
+        MatSliderModule,
+        MatToolbarModule,
+        MatCardModule,
+        MatGridListModule,
+        MatExpansionModule,
+        MatListModule,
+        MatSidenavModule,
+        LayoutModule,
+        MatSelectModule
 
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    ],
+    providers: [],
+    bootstrap: [AppComponent]
 })
 
 export class AppModule {}
