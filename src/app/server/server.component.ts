@@ -3,22 +3,20 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 @Component({
-    selector: 'app-root',
-    templateUrl: './app.component.html',
-    styleUrls: ['./app.component.css']
+    selector: 'app-server',
+    templateUrl: './server.component.html',
+    styleUrls: ['./server.component.css']
 })
 @NgModule ({
     declarations: [
-        AppComponent
+        ServerComponent
     ],
     imports: [
         FormsModule
     ],
     providers: [],
-    bootstrap: [AppComponent]
+    bootstrap: [ServerComponent]
 })
-export class AppComponent {
-    title = 'Hey there';
-    username = '';
+export class ServerComponent {
+    title = 'Hey server';
 }
-

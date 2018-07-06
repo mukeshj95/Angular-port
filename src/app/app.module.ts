@@ -22,10 +22,14 @@ import {MatListModule} from '@angular/material/list';
 import {LayoutModule} from '@angular/cdk/layout';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatSelectModule} from '@angular/material/select';
+import { ServerComponent } from './server/server.component';
+import { ServersComponent } from './servers/servers.component';
 
 @NgModule({
     declarations: [
         AppComponent,
+        ServerComponent,
+        ServersComponent
     ],
     imports: [
         MatIconModule,
